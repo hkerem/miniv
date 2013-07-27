@@ -1,5 +1,5 @@
 Requirements
-================
+----------------
 Python 2.7
 Python modules: web.py (0.34), pysqlite2 (2.6.3), requests (0.8.2), nose (1.1.2)
 
@@ -8,7 +8,7 @@ Installing these packages is enough to run miniv application
     # easy_install web.py pysqlite requests nose
 
 Design
-================
+----------------
 Miniv is desinged as a client/server application. 
 
 Server accepts requests in HTTP protocol. HTTP interface respects RESTful principles and uses JSON encoding. Application logs for miniv server can be found at **server/miniv.log**. Also web server logs and ORM logs will be printed to **stdout**. Server uses SQLite for persistance. Transactions are used to ensure consistency. SQLite database is located at **server/minivdb**. Default database schema can be found at **server/sql/schema.sql**.
@@ -28,7 +28,7 @@ At CLI, **help** command will print usage:
       user		 Add new user:					 user Username 
 
 Running
-================
+----------------
 To run miniv server: 
 
     # ./run_server.sh
@@ -46,7 +46,7 @@ To run miniv server unit tests:
     # (cd server; ./test.sh)
 
 Example
-================
+----------------
 
     shell-1# ./run_server.sh
 
