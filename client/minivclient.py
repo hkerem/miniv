@@ -201,9 +201,9 @@ class CmdLine(Cmd):
 		if type(result) is list:
 			for entry in result:
 				actor = entry['actor']
-				actor = 'You' if user == actor else actor
+				actor = 'You' if user.lower() == actor.lower() else actor
 				target = entry['target']
-				target = 'you' if user == target else target
+				target = 'you' if user.lower() == target.lower() else target
 				print_raw('%s paid %s $%s for %s' % (actor, target, entry['amount'], entry['note']) )
 		else:
 			print_error(result)
