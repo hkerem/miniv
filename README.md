@@ -20,12 +20,12 @@ At CLI, **help** command will print usage:
     Mini-V Application Interactive CLI Terminal
     > help
     Commands:
-      add		 Add new credit card to user:				 add Username CreditCardNumber 
-      balance	 Show balance of user:				 		balance Username 
-      exit		 Exit from this terminal:			 		exit 
-      feed		 Show user feed:				 			feed Username 
-      pay		 Make payment from a user to another user:	 pay ActorUsername TargetUsername Amount Note 
-      user		 Add new user:					 			user Username 
+      add        Add new credit card to user:                 add Username CreditCardNumber 
+      balance    Show balance of user:                        balance Username 
+      exit       Exit from this terminal:                     exit 
+      feed       Show user feed:                              feed Username 
+      pay        Make payment from a user to another user:    pay ActorUsername TargetUsername Amount Note 
+      user       Add new user:                                user Username 
 
 Running
 ----------------
